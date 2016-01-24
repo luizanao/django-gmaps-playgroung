@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+      <h2>Draw Playground</h2>
+      
+      <div class=" form-inline">
+          <div class="form-group">
+                 <button class="btn btn-md btn-default" onclick="clearMap(null);">Clear</button>
+                 <button class="btn btn-lg btn-primary ">Save & Submit</button>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-xs-6">
+          <h2>Hong Kong</h2>
+          <address>
+            <strong>HK Business Address</strong><br>
+            100 Business Address<br>
+            Kowloon<br>
+            Hong Kong<br>
+            Hong Kong<br>
+            Zip Code N/A<br>
+            <abbr title="Phone">P:</abbr> 01234 567 890
+          </address>
+        </div>
+        <div class="col-xs-6">
+              <h2>Shenzhen, P.R.C.</h2>
+              <address>
+                <strong>SZ Business Address</strong><br>
+                100 Business Address<br>
+                Futian District<br>
+                <br>
+                Shenzhen, Guangdong<br>
+                518000<br>
+                <abbr title="Phone">P:</abbr> 01234 567 890
+              </address>
+        </div>
+     </div>
+       
+ {% endblock %}
